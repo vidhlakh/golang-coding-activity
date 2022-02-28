@@ -7,8 +7,8 @@ import "fmt"
 func Bubblesort() {
 	data := []int{9, 4, 3, 6, 1, 2, 10}
 	data2 := []int{2, 10, 5, 7, 8}
-	chan1 := make(chan []int, 0)
-	chan2 := make(chan []int, 0)
+	chan1 := make(chan []int)
+	chan2 := make(chan []int)
 	//chan3 := make(chan []int, 0)
 	go sort(data, chan1)
 	res := <-chan1

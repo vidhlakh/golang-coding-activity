@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/vidhlakh/golang-coding-activity/sorting"
+	"github.com/vidhlakh/golang-coding-activity/missingnumber"
 )
 
 func main() {
@@ -16,5 +16,6 @@ func main() {
 	//kthlargest.Kthlargestfunc()
 	//smallestcommonnumber.SmallestCommonfunc()
 	//sorting.Bubblesort()
-	sorting.Mergesort()
+	// sorting.Mergesort()
+	missingnumber.MissingNumber()
 }
